@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:title="@string/notifications"
+        android:key="notification_preference"
+        android:defaultValue="false" />
+
+    <CheckBoxPreference
+        android:key="only_wifi"
+        android:title="@string/only_wifi"
+        android:defaultValue="false" />
+
+    <ListPreference
+        android:entries="@array/lists"
+        android:entryValues="@array/lists"
+        android:title="@string/update_periodicity"
+        android:key="update_preference"
+        android:defaultValue="7"/>
+
+    <ListPreference
+        android:entries="@array/battery"
+        android:entryValues="@array/battery"
+        android:title="@string/battery_limit"
+        android:key="battery_preference"
+        android:defaultValue="15"/>
+
+</PreferenceScreen>

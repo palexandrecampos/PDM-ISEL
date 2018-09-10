@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name" translatable="false">YAMDA</string>
+    <string name="most_popular_movies">Most Popular Movies</string>
+    <string name="search">Search</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="upcoming_movies">Upcoming Movies</string>
+    <string name="search_here_the_movie">Search here the movie</string>
+    <string name="this_androidapp_uses_the_tmdb_api">© This AndroidApp uses the TMDB API</string>
+    <string name="welcome_to_our_movie_application">Welcome to our Movie Application</string>
+    <string name="language">en-US</string>
+    <string name="produced_by_group_13">Directed By Group 13</string>
+    <string name="carlos_pereira" translatable="false">Carlos Pereira</string>
+    <string name="paulo_alexandre" translatable="false">Paulo Alexandre</string>
+    <string name="supervised_by">Supervised By:</string>
+    <string name="every_day">Every Day</string>
+    <string name="three_days">Three Days</string>
+    <string name="one_week">Weekly</string>
+    <string name="periodicy_time">Select Refresh Periocity Time</string>
+    <string name="submit">Submit</string>
+    <string name="connectivity_type">Connectivity Type</string>
+    <string name="wifi" translatable="false">Wi-Fi</string>
+    <string name="mobile_data">Mobile Data</string>
+    <string name="any">Both</string>
+    <string name="battery_percentage_text">Chose Limit of Battery Percentage to Stop Updates:</string>
+    <string name="update_periodicity">Update Periodicity</string>
+    <string name="notifications">Get Notifications?</string>
+    <string name="battery_limit">Battery Limit For Updates</string>
+    <string name="only_wifi">Only Wi-Fi</string>/>
+    
+    <string-array name="lists">
+        <item>Once a Day</item>
+        <item>Twice a Week</item>
+        <item>Once a Week</item>
+    </string-array>
+
+    <string-array name="battery">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+    </string-array>
+
+</resources>
